@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="A&amp;R Superior provides flooring installations
+                             of all types in Watertown, NY and surrounding
+                             North Country areas.">
+      <link rel="stylesheet" type="text/css" href="w3.css">
+      <link rel="icon" href="favicon2.png" type="image/x-icon">
+      <title>Flooring Installations | Watertown, NY 13601</title>
+
+    <style>
+      a  { font-size:20px; }
+      a,p,h1,h2,h3,h4,h5,h6 {font-family: "Century Gothic", CenturyGothic, Geneva, AppleGothic, sans-serif;}
+      @media screen and (max-width: 750px) { /*If (screen < 750px), don't display banner*/
+        #banner {display:none;}
+      }
+      @media screen and (min-width: 749px) { /*If (screen < 749px), don't display mid*/
+        #mid {display:none;}
+      }
+      @media screen and (max-width: 331px) { /*If (screen < 301px), don't display mid*/
+        #mid {display:none;}
+        #carpetInstall {display:none;}
+      }
+      @media screen and (min-width: 330px) { /*If (screen > 300 px), don't display logo*/
+        #logo {display:none;}
+      }
+      @media screen and (max-width: 602px) { /* keeps pixellation down on flooring-material imgs */
+        #hardwoodSample {width: 50%;}
+        #carpetSample {width: 50%;}
+        #laminateSample {width: 50%;}
+        #tileSample {width: 50%;}
+      }
+      /*none that this actually pops at 755px as measured by JS*/
+      @media screen and (max-width: 810px) {
+        #installCarpet {display:none;}
+        #finishedProject {display:block;}
+      }
+      @media screen and (min-width: 811px) {
+        #installCarpet {display:block;}
+        #finishedProject {display:none;}
+      }
+
+    </style>
+  </head>
+
+  <body>
+
+    <div class="w3-image" id="banner">
+      <img class="w3-image" style="width:100%;" src="banner2.png" alt="A&amp;R Logo">
+    </div>
+    <div class="w3-image" id="mid">
+      <img class="w3-image" style="width:100%;" src="bannermid.png" alt="A&amp;R Logo">
+    </div>
+    <div class="w3-image" id="logo">
+      <img class="w3-image" style="width:100%;" src="cap17.png" alt="A&amp;R Logo">
+    </div>
+
+    <div class="w3-container" style="background-color:black; height:10px;"></div>
+    <!--THE LINE ABOVE THICKENS THE NAV BAR-->
+    <div class=" w3-topnav w3-container black" style="text-align:left">
+      <a href="index.htm">A&amp;R HOMEPAGE</a>
+      <a href="apartments.htm">APARTMENTS</a>
+      <a href="storageunits.htm">STORAGE</a>
+      <a href="construction.htm">CONSTRUCTION</a>
+      <a href="lawncare.htm">LAWN CARE</a>
+      <a href="snowremoval.htm">SNOW REMOVAL</a>
+      <a href="cont.htm">CONTACT INFO</a>
+    </div>
+    <div class="w3-container w3-card-8" style="background-color:black; height:10px;"></div>
+    <!--THE LINE ABOVE THICKENS THE NAV BAR-->
+
+    <header class="w3-container ">
+      <h1 style="text-align:center;">Flooring Installation</h1>
+    </header>
+
+
+     <!-- <div class="container-fluid">
+       Current viewport width:<span id="monitor"></span>
+      </div>
+
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+
+    <script>
+     $('#monitor').html($(window).width());
+
+     $(window).resize(function() {
+        var viewportWidth = $(window).width();
+        $('#monitor').html(viewportWidth);
+     });
+    </script> -->
+
+<div class="w3-row">
+  <div class="w3-half">
+    <div id="hardwoodSample" class="w3-quarter">
+      <div class="w3-card-4 w3-margin-8">
+        <img src="floorImg/hardwoodInstallation.jpg" alt="Apartment Building" style="width:100%">
+      </div>
+    </div>
+
+    <div id="carpetSample" class="w3-quarter">
+      <div class="w3-card-4 w3-margin-8">
+        <img src="floorImg/carpetInstall.jpg" alt="Apartment Building" style="width:100%">
+      </div>
+    </div>
+
+
+    <div id="laminateSample" class="w3-quarter">
+      <div class="w3-card-4 w3-margin-8">
+        <img src="floorImg/laminateInstallation.jpg" alt="Apartments" style="width:100%">
+      </div>
+    </div>
+
+    <div id="tileSample" class="w3-quarter">
+      <div class="w3-card-4 w3-margin-8">
+        <img src="floorImg/tileInstallation.jpg" alt="Apartments" style="width:100%">
+      </div>
+    </div>
+
+    <div class="w3-container">
+      <div class="w3-margin-8">
+        <p>Whether you need hardwood, carpet, laminate, tile, or some other flooring material,
+           we can offer you the expertise to get you the look you want at a price point you can
+           afford. Call us at 315-783-3105
+        </p>
+      </div>
+    </div>
+  </div> <!-- end half -->
+
+  <div id="installCarpet" class="w3-half"> <!-- this disps on larger screens -->
+    <div class="w3-card-4 w3-margin-8">
+      <img src="floorImg/carpet1.jpg" alt="Installing Carpet" style="width:100%">
+    </div>
+  </div>
+
+  <div id="finishedProject" class="w3-half"> <!-- this disps on mD/sM screens -->
+    <div class="w3-card-4 w3-margin-8">
+      <img src="floorImg/hardwood.jpg" alt="Installed Tile" style="width:100%">
+    </div>
+  </div>
+
+</div> <!-- end row -->
+
+<hr>
+
+    <div class="w3-third">
+      <div class="w3-card-4 w3-margin-8">
+        <img src="floorImg/linoleum.jpg" alt="Apartment Complex" style="width:100%">
+      </div>
+    </div>
+
+    <div id="carpetInstall" class="w3-third">
+      <div class="w3-card-4 w3-margin-8">
+        <img src="floorImg/carpet22.png" alt="Apartment Complex" style="width:100%">
+      </div>
+    </div>
+
+    <div class="w3-third">
+      <div class="w3-card-4 w3-margin-8">
+        <img src="floorImg/flooring1.png" alt="Apartment Complex" style="width:100%">
+      </div>
+    </div>
+
+    <footer class="w3-container" style="background-color:white"></footer><!--padding TODO:fix!-->
+
+    <footer class="w3-container ">
+      <h4 style="text-align:center; font-weight:bold;">A&amp;R Superior Flooring Installation</h4>
+      <hr/>
+      <p style="text-align:center;">Our carpenters are well-versed in many types of flooring
+                                    installations and can also consult with you if you need
+                                    guidance in regards to the optimal materials or approaches
+                                    for your project. Call to inquire at (315)-783-3105</p>
+    </footer>
+    <hr>
+
+    <footer class="footer" style="text-align:center;"><p style="font-size:12px">
+      A&amp;R Flooring Installations &copy; Harris Management <span id="year"></span></p>
+    </footer>
+    <script>
+      var currentDate = new Date();
+      document.getElementById("year").innerHTML = currentDate.getFullYear();
+    </script><!-- TODO: make this an external script and use it for all pages -->
+
+    <div class="w3-topnav w3-container black" style="text-align:right">
+      <a href="index.htm">A&amp;R HOMEPAGE</a>
+      <a href="apartments.htm" >APARTMENTS</a>
+      <a href="storageunits.htm" >STORAGE</a>
+      <a href="construction.htm" >CONSTRUCTION</a>
+      <a href="lawncare.htm" >LAWN CARE</a>
+      <a href="snowremoval.htm" >SNOW REMOVAL</a>
+      <a href="cont.htm" >CONTACT INFO</a>
+    </div>
+  </body>
+</html>
